@@ -1,2 +1,2 @@
 #!/bin/bash
-printf “%o” 253016754 | tr 01234567 belhnort bestschool
+printf "%o" 253016754 | tr 01234567 belhnort bestschool
