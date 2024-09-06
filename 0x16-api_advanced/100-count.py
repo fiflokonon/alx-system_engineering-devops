@@ -13,7 +13,7 @@ def count_words(subreddit, word_list, after=None, counts={}):
     if not word_list or word_list == [] or not subreddit:
         return
 
-    url = f"https://www.reddit.com/r/{subreddit}/hot.json"
+    url = f"http://www.reddit.com/r/{subreddit}/hot.json"
     headers = {"User-Agent": "Mozilla/5.0"}
 
     params = {"limit": 100}

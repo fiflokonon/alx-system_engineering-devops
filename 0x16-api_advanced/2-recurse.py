@@ -23,7 +23,7 @@ def recurse(subreddit, hot_list=[], after="", count=0):
         list: A list of post titles from the hot section of the subreddit.
     """
     # Construct the URL for the subreddit's hot posts in JSON format
-    url = "https://www.reddit.com/r/{}/hot/.json".format(subreddit)
+    url = "http://www.reddit.com/r/{}/hot/.json".format(subreddit)
 
     # Define headers for the HTTP request, including User-Agent
     headers = {
